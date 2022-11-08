@@ -8,10 +8,11 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
-	"net/http"
 	"reflect"
 	"strconv"
 	"strings"
+
+	"github.com/nycu-ucr/gonet/http"
 )
 
 // Server-Sent Events
